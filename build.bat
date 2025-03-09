@@ -9,3 +9,15 @@ Bat_To_Exe_Converter_x64.exe /bat "ExtractAll_en-US.bat" ^
 /overwrite ^
 /attributes ^
 /display
+
+Bat_To_Exe_Converter_x64.exe /bat "ExtractAll_zh-CN.bat" ^
+/exe "Release/ExtractAll_zh-CN.exe" ^
+/x64 ^
+/include "7z.exe" ^
+/include "unrar.exe" ^
+/workdir "%~dp0" ^
+/extractdir "%~dp0" ^
+/deleteonexit ^
+/overwrite ^
+/attributes ^
+/display
