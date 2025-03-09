@@ -14,7 +14,7 @@ echo.
 echo Welcome to ExtractAll^^!
 :: Prompt the user to enter passwords
 :PasswordLoop
-set /p Password%i%="Enter password %i% (leave blank to finish): "
+set /p Password%i%="Enter password %i% (leave blank to go to the next step): "
 if "!Password%i%!"=="" (
     set /a PasswordCount=!i!-1
     goto AskExtractOption

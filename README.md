@@ -1,2 +1,8 @@
 # ExtractAll
- Batch extraction of compressed files with passwords.
+ A windows script to run batch extraction of compressed files with passwords.
+
+## Features and usage
+ - Place the built executable in the same folder where your compressed files are, then just run it!
+ - Enter multiple possible passwords and the script will try them all. 
+ - Can choose whether or not to delete your compressed files after extraction. 
+ - Can choose whether or not to extract each compressed file (or set of volumes) to individual folders. 
